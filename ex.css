@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+h1{
+    color: white;
+}
+/*Attribute Selectors*/
+a{
+  color: yellow;  
+}
+a:hover{
+    color: aqua;
+    font-size: large;
+}
+/*Child selector*/
+ul > li {
+    font-weight: bold;
+}
+/*SIbling Selectors*/
+h1+p{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}   
+/*Hover pseudo class*/
+ul>li:hover{
+    color: blue;
+
+}
+/*nth-child (n)Pseudo class*/
+ul li:nth-child(3){
+    background-color: blue;
+}
+/*::before pseudo element*/
+ul li::before{
+    content: "🚀";
+}
+/*After pseudo element*/
+ul li::after{
+    content: "🌌";
+}
+/*first letter pseudo*/
+p::first-letter {
+    font-size: 50px;
+    color: aquamarine;
+}
