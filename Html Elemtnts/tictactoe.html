@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="game">
+    <h1>Tic Tac Toe</h1>
+    <div id="status" class="status">Player X's turn</div>
+
+    <div class="board" id="board">
+      <div class="cell" data-index="0" tabindex="0"></div>
+      <div class="cell" data-index="1" tabindex="0"></div>
+      <div class="cell" data-index="2" tabindex="0"></div>
+      <div class="cell" data-index="3" tabindex="0"></div>
+      <div class="cell" data-index="4" tabindex="0"></div>
+      <div class="cell" data-index="5" tabindex="0"></div>
+      <div class="cell" data-index="6" tabindex="0"></div>
+      <div class="cell" data-index="7" tabindex="0"></div>
+      <div class="cell" data-index="8" tabindex="0"></div>
+    </div>
+
+    <div class="controls">
+      <button id="restart">Restart</button>
+    </div>
+
+    <p class="hint">Click any cell to place your mark. Two players alternate on the same device.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
